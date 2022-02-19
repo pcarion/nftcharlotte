@@ -7,5 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/presets/ERC721PresetMinterPauserAut
 // import "hardhat/console.sol";
 
 contract MyCryptoCharlotte is ERC721PresetMinterPauserAutoId {
-    constructor(string memory baseTokenURI) ERC721PresetMinterPauserAutoId("NftCharlotte", "CHA", baseTokenURI) {}
+    constructor(string memory baseTokenURI) ERC721PresetMinterPauserAutoId("NftCharlotte", "CHA", baseTokenURI) {
+        // Nothing
+    }
 }

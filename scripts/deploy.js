@@ -1,6 +1,8 @@
+PINATA_META_BASEURL=process.env['PINATA_META_BASEURL']
+
 async function main() {
   const MyCryptoCharlotte = await hre.ethers.getContractFactory("MyCryptoCharlotte");
-  const myCryptoCharlotte = await MyCryptoCharlotte.deploy("https://gateway.pinata.cloud/ipfs/QmWgmhXiTqg6xRyciWkbMPVYVPzfhGgoT789CRU7kh1faC/");
+  const myCryptoCharlotte = await MyCryptoCharlotte.deploy(PINATA_META_BASEURL);
 
   await myCryptoCharlotte.deployed();
 

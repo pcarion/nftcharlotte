@@ -1,0 +1,23 @@
+{
+    "description": "Charlotte",
+    "external_url": "https://gateway.pinata.cloud/ipfs/Qma83zrXmKE1bkUMPKTLMv8gXaYfqLnfcMTTkZVPWYSinV/charlotte-03.png",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma83zrXmKE1bkUMPKTLMv8gXaYfqLnfcMTTkZVPWYSinV/charlotte-03.png",
+    "name": "Charlotte #4",
+    "attributes": [
+        {
+            "trait_type": "Author",
+            "value": "Pierre Carion"
+      },
+      {
+            "trait_type": "Camera",
+            "value": "iPhone 13"
+      },
+      {
+            "trait_type": "Resolution",
+            "value": "1080px x 1080 px"
+      },
+      {
+          "display_type": "date",
+          "trait_type": "Published",
+          "value": 1645297855
+      }]}

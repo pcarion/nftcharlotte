@@ -1,6 +1,6 @@
 async function main() {
   const MyCryptoCharlotte = await hre.ethers.getContractFactory("MyCryptoCharlotte");
-  const myCryptoCharlotte = await MyCryptoCharlotte.deploy("MyCryptoCharlotte", "CHA");
+  const myCryptoCharlotte = await MyCryptoCharlotte.deploy("https://gateway.pinata.cloud/ipfs/QmWgmhXiTqg6xRyciWkbMPVYVPzfhGgoT789CRU7kh1faC/");
 
   await myCryptoCharlotte.deployed();
 
